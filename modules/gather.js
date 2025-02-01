@@ -90,7 +90,7 @@ function manualLabor2() {
 	}
 
 	//Build if we don't have foremany, there are any buildings in the queue, or if we can speed up something other than a trap
-	if (!bwRewardUnlocked("Foremany") && game.global.buildingsQueue.length && (game.global.buildingsQueue.length > 0 || game.global.autoCraftModifier == 0 || (getPlayerModifier() > 100 && game.global.buildingsQueue[0] != 'Trap.1'))) {
+	if (!bwRewardUnlocked("Foremany") && game.global.buildingsQueue.length && (game.global.buildingsQueue.length >= 1 || game.global.autoCraftModifier == 0 || (getPlayerModifier() > 100 && game.global.buildingsQueue[0] != 'Trap.1'))) {
 		setGather('buildings');
 		return;
 	}
@@ -200,7 +200,7 @@ function manualLabor2() {
 }
 
 function autogather3() {
-    if ((game.global.buildingsQueue.length = 0 && getPageSetting('gathermetal') == false) || (getPageSetting('gathermetal') == true)) setGather('metal');
+    if ((game.global.buildingsQueue.length < 1 && getPageSetting('gathermetal') == false) || (getPageSetting('gathermetal') == true)) setGather('metal');
     else setGather('buildings')
 }
 
