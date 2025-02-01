@@ -1,4 +1,4 @@
-var ATversion = 'Zek v5.1.0',
+var ATversion = 'Nib v5.1.0',
     atscript = document.getElementById('AutoTrimps-script'),
     basepath = 'https://prof-nibby.github.io/AutoTrimps-NibbyChanges/', //Link to your own Github here if you forked!
     modulepath = 'modules/';
@@ -29,7 +29,7 @@ function initializeAutoTrimps() {
     for (var m in ATmoduleList) {
         ATscriptLoad(modulepath, ATmoduleList[m]);
     }
-    debug('AutoTrimps - Zek Fork Loaded!', '*spinner3');
+    debug('AutoTrimps - Zek Fork Loaded! - Nibby Changes', '*spinner3');
 }
 
 var changelogList = [];
