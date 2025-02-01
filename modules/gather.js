@@ -200,8 +200,7 @@ function manualLabor2() {
 }
 
 function autogather3() {
-    if (getPageSetting('ManualGather2') != 2 && researchAvailable && needScience) setGather('science');
-    else if ((game.global.buildingsQueue.length = 0 && getPageSetting('gathermetal') == false) || (getPageSetting('gathermetal') == true)) setGather('metal');
+    if ((game.global.buildingsQueue.length = 0 && getPageSetting('gathermetal') == false) || (getPageSetting('gathermetal') == true)) setGather('metal');
     else setGather('buildings')
 }
 
