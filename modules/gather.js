@@ -200,8 +200,8 @@ function manualLabor2() {
 }
 
 function autogather3() {
-    if ((game.global.buildingsQueue.length = 0 && getPageSetting('gathermetal') == false) || (getPageSetting('gathermetal') == true)) setGather('metal');
-    else setGather('buildings')
+	if ((game.global.buildingsQueue.length < 1 && getPageSetting('gathermetal') == false) || (getPageSetting('gathermetal') == true)) setGather('metal');
+	else setGather('buildings')
 }
 
 //RGather
