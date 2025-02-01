@@ -1,6 +1,6 @@
 var ATversion = 'Zek v5.1.0',
     atscript = document.getElementById('AutoTrimps-script'),
-    basepath = 'https://github.com/Prof-Nibby/AutoTrimps-NibbyChanges', //Link to your own Github here if you forked!
+    basepath = 'https://prof-nibby.github.io/AutoTrimps-NibbyChanges/', //Link to your own Github here if you forked!
     modulepath = 'modules/';
 null !== atscript && (basepath = atscript.src.replace(/AutoTrimps2\.js$/, ''));
 
