@@ -263,10 +263,10 @@ function autoStance() {
         //If even that is not enough, then it ignore Explosive Daily, and finally it ignores Reflect Daily
         var critPower;
         for (critPower=2; critPower >= -2; critPower--) {
-            if      (survive("D", critPower))  {setFormation(2);   break;}
-            else if (survive("XB", critPower)) {setFormation("0"); break;}
-            else if (survive("B", critPower))  {setFormation(3);   break;}
-            else if (survive("X", critPower))  {setFormation("0"); break;}
+            if      (survive("D", critPower))  {setFormation(1);   break;}
+            else if (survive("XB", critPower)) {setFormation(1); break;}
+            else if (survive("B", critPower))  {setFormation(1);   break;}
+            else if (survive("X", critPower))  {setFormation(1); break;}
             else if (survive("H", critPower))  {setFormation(1);   break;}
 	    }
 
