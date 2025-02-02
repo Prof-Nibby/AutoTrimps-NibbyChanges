@@ -287,7 +287,7 @@ function autoStance2() {
       if (!game.upgrades.Formations.done) return;
       if (game.global.world <= 70) return;
            if (game.global.formation != 2)
-               setFormation(2);
+               setFormation(1);
 }
 
 function windStance() {
