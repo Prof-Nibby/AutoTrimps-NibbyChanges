@@ -2326,7 +2326,7 @@ function autoBoneChargeWhenMax() {
 
   // If we have more than 10 bone charges and our current world zone is
   // greater than or equal to the charge zone set; use a bone charge.
-  if (boneChargesAvailable === 10 && currentZone >= chargeZone) {
+  if (boneChargesAvailable === 9 && currentZone >= chargeZone) {
     game.permaBoneBonuses.boosts.consume();
     debug("Max bone charges reached! Used a bone charge.", "general", "*bolt");
   }
