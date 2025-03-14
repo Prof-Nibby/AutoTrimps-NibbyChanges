@@ -138,10 +138,10 @@ function useScryerStance() {
         if (transitionRequired) {
             for (var cp=2; cp >= -2; cp--) {
                 if      (survive("D",  cp) && !oneShotPower("D", 0, true)) {setFormation( 2 ); return;}
-                else if (survive("XB", cp) && !oneShotPower("X", 0, true)) {setFormation( x ); return;}
-                else if (survive("B",  cp) && !oneShotPower("B", 0, true)) {setFormation( 3 ); return;}
-                else if (survive("X",  cp) && !oneShotPower("X", 0, true)) {setFormation( x ); return;}
-                else if (survive("H",  cp) && !oneShotPower("H", 0, true)) {setFormation( 1 ); return;}
+                else if (survive("XB", cp) && !oneShotPower("X", 0, true)) {setFormation( 2 ); return;}
+                else if (survive("B",  cp) && !oneShotPower("B", 0, true)) {setFormation( 2 ); return;}
+                else if (survive("X",  cp) && !oneShotPower("X", 0, true)) {setFormation( 2 ); return;}
+                else if (survive("H",  cp) && !oneShotPower("H", 0, true)) {setFormation( 2 ); return;}
             }
         }
 
