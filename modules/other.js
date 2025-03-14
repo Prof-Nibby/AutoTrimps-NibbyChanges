@@ -67,7 +67,7 @@ function dailyexitSpireCell() {
 }
 
 function plusPres() {
-    document.getElementById("biomeAdvMapsSelect").value = "Gardens", document.getElementById("advExtraLevelSelect").value = plusMapToRun(game.global.world), document.getElementById("advSpecialSelect").value = "p", document.getElementById("lootAdvMapsRange").value = 0, document.getElementById("difficultyAdvMapsRange").value = 9, document.getElementById("sizeAdvMapsRange").value = 9, document.getElementById("advPerfectCheckbox").checked = !1, document.getElementById("mapLevelInput").value = game.global.world, updateMapCost()
+    document.getElementById("biomeAdvMapsSelect").value = "Gardens", document.getElementById("advExtraLevelSelect").value = plusMapToRun(game.global.world), document.getElementById("advSpecialSelect").value = "p", document.getElementById("lootAdvMapsRange").value = 9, document.getElementById("difficultyAdvMapsRange").value = 9, document.getElementById("sizeAdvMapsRange").value = 9, document.getElementById("advPerfectCheckbox").checked = !1, document.getElementById("mapLevelInput").value = game.global.world, updateMapCost()
 }
 
 function plusMapToRun(a) {
