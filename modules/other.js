@@ -217,10 +217,10 @@ function plusMapToRun5() {
 }
 
 function plusPres1() {
-    document.getElementById("biomeAdvMapsSelect").value = "Depths";
+    document.getElementById("biomeAdvMapsSelect").value = "Gardens";
     document.getElementById("advExtraLevelSelect").value = plusMapToRun1();
     document.getElementById("advSpecialSelect").value = "p";
-    document.getElementById("lootAdvMapsRange").value = 0;
+    document.getElementById("lootAdvMapsRange").value = 9;
     document.getElementById("difficultyAdvMapsRange").value = 9;
     document.getElementById("sizeAdvMapsRange").value = 9;
     document.getElementById("advPerfectCheckbox").checked = true;
@@ -318,10 +318,10 @@ function plusPres1() {
 }
 
 function plusPres2() {
-    document.getElementById("biomeAdvMapsSelect").value = "Depths";
+    document.getElementById("biomeAdvMapsSelect").value = "Gardens";
     document.getElementById("advExtraLevelSelect").value = plusMapToRun2();
     document.getElementById("advSpecialSelect").value = "p";
-    document.getElementById("lootAdvMapsRange").value = 0;
+    document.getElementById("lootAdvMapsRange").value = 9;
     document.getElementById("difficultyAdvMapsRange").value = 9;
     document.getElementById("sizeAdvMapsRange").value = 9;
     document.getElementById("advPerfectCheckbox").checked = true;
@@ -419,10 +419,10 @@ function plusPres2() {
 }
 
 function plusPres3() {
-    document.getElementById("biomeAdvMapsSelect").value = "Depths";
+    document.getElementById("biomeAdvMapsSelect").value = "Gardens";
     document.getElementById("advExtraLevelSelect").value = plusMapToRun3();
     document.getElementById("advSpecialSelect").value = "p";
-    document.getElementById("lootAdvMapsRange").value = 0;
+    document.getElementById("lootAdvMapsRange").value = 9;
     document.getElementById("difficultyAdvMapsRange").value = 9;
     document.getElementById("sizeAdvMapsRange").value = 9;
     document.getElementById("advPerfectCheckbox").checked = true;
@@ -520,10 +520,10 @@ function plusPres3() {
 }
 
 function plusPres4() {
-    document.getElementById("biomeAdvMapsSelect").value = "Depths";
+    document.getElementById("biomeAdvMapsSelect").value = "Gardens";
     document.getElementById("advExtraLevelSelect").value = plusMapToRun4();
     document.getElementById("advSpecialSelect").value = "p";
-    document.getElementById("lootAdvMapsRange").value = 0;
+    document.getElementById("lootAdvMapsRange").value = 9;
     document.getElementById("difficultyAdvMapsRange").value = 9;
     document.getElementById("sizeAdvMapsRange").value = 9;
     document.getElementById("advPerfectCheckbox").checked = true;
@@ -621,10 +621,10 @@ function plusPres4() {
 }
 
 function plusPres5() {
-    document.getElementById("biomeAdvMapsSelect").value = "Depths";
+    document.getElementById("biomeAdvMapsSelect").value = "Gardens";
     document.getElementById("advExtraLevelSelect").value = plusMapToRun5();
     document.getElementById("advSpecialSelect").value = "p";
-    document.getElementById("lootAdvMapsRange").value = 0;
+    document.getElementById("lootAdvMapsRange").value = 9;
     document.getElementById("difficultyAdvMapsRange").value = 9;
     document.getElementById("sizeAdvMapsRange").value = 9;
     document.getElementById("advPerfectCheckbox").checked = true;
