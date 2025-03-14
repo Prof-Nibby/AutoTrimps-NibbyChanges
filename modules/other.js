@@ -1521,7 +1521,7 @@ function PraidHarder() {
         if (pMap) recycleMap(getMapIndex(pMap));
         pMap = null;
         // Choose a fragment farming map
-        document.getElementById("biomeAdvMapsSelect").value = "Depths";
+        document.getElementById("biomeAdvMapsSelect").value = "Gardens";
         document.getElementById('advExtraLevelSelect').value = 0;
         document.getElementById('advSpecialSelect').value = "fa";
         document.getElementById("lootAdvMapsRange").value = 9;
