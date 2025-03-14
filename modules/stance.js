@@ -17,8 +17,9 @@ function autoStanceNew() {
     if (game.global.soldierHealth <= 0) return;
     if (!game.upgrades.Formations.done) return;
 	
-    if (game.global.formation == 2 && game.global.soldierHealth <= game.global.soldierHealthMax * 0.25)     setFormation('1');
-    else if(game.global.formation == 0 && game.global.soldierHealth <= game.global.soldierHealthMax * 0.25) setFormation('1');
+    if (game.global.formation == 2 && game.global.soldierHealth <= game.global.soldierHealthMax * 0.25)     setFormation('2');
+    else if(game.global.formation == 1 && game.global.soldierHealth <= game.global.soldierHealthMax * 0.25) setFormation('2');
+    else if(game.global.formation == 0 && game.global.soldierHealth <= game.global.soldierHealthMax * 0.25) setFormation('2');
 }
 
 function debugStance(maxPower, ignoreArmy) {
@@ -262,16 +263,16 @@ function autoStance() {
         //If even that is not enough, then it ignore Explosive Daily, and finally it ignores Reflect Daily
         var critPower;
         for (critPower=2; critPower >= -2; critPower--) {
-            if      (survive("D", critPower))  {setFormation(1);   break;}
-            else if (survive("XB", critPower)) {setFormation(1); break;}
-            else if (survive("B", critPower))  {setFormation(1);   break;}
-            else if (survive("X", critPower))  {setFormation(1); break;}
-            else if (survive("H", critPower))  {setFormation(1);   break;}
+            if      (survive("D", critPower))  {setFormation(2);   break;}
+            else if (survive("XB", critPower)) {setFormation(2); break;}
+            else if (survive("B", critPower))  {setFormation(2);   break;}
+            else if (survive("X", critPower))  {setFormation(2); break;}
+            else if (survive("H", critPower))  {setFormation(2);   break;}
 	    }
 
         //If it cannot survive the worst case scenario on any formation, attempt it's luck on H, if available, or X
         if (critPower < -2) {
-            if (game.upgrades.Formations.done) setFormation(1);
+            if (game.upgrades.Formations.done) setFormation(2);
             else setFormation("0");
 	    }
     }
