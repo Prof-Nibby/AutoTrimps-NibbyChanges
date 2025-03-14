@@ -1,4 +1,4 @@
-var ATversion = 'Nib v5.1.0',
+var ATversion = 'Nib v5.1.1',
     atscript = document.getElementById('AutoTrimps-script'),
     basepath = 'https://prof-nibby.github.io/AutoTrimps-NibbyChanges/', //Link to your own Github here if you forked!
     modulepath = 'modules/';
