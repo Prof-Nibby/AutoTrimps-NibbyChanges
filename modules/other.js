@@ -2433,7 +2433,7 @@ function autoBoneChargeWhenMax() {
   const autoBoneChargeZoneSet =
     getPageSetting("AutoBoneChargeMaxStartZone") > 0 ? true : false;
   const highestZoneCleared = game.global.highestLevelCleared;
-  const percentOfHZC = Math.round((5 / 100) * highestZoneCleared);
+  const percentOfHZC = Math.round((2 / 100) * highestZoneCleared);
   const optimalChargeZone =
     highestZoneCleared - percentOfHZC > 60
       ? highestZoneCleared - percentOfHZC
