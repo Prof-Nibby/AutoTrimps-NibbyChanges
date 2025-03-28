@@ -20,9 +20,9 @@ function betterAutoFight() {
 
 function betterAutoFight3() {
     var customVars = MODULES["fight"];
-    if (game.global.autoBattle && game.global.pauseFight && !game.global.spireActive)
+    if (game.global.autoBattle && game.global.pauseFight)
         pauseFight();
-        if (game.global.gridArray.length === 0 || game.global.preMapsActive || !game.upgrades.Battle.done || game.global.fighting || game.global.spireActive)
+        if (game.global.gridArray.length === 0 || game.global.preMapsActive || !game.upgrades.Battle.done || game.global.fighting)
             return;
         if (game.global.world == 1 && !game.global.fighting) {
             fightManual();
