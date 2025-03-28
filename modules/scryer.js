@@ -33,7 +33,7 @@ function useScryerStance() {
     var scryF = 'S';
     var x = 0;
 
-    if (game.global.uberNature == "Wind") {
+    if (game.global.uberNature == "Wind" && getPageSetting('WindStackingMin') <= game.global.world) {
         scry = 5;
         scryF = 'W';
         x = 5;
