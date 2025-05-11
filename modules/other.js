@@ -71,7 +71,7 @@ function plusPres() {
 }
 
 function plusMapToRun(a) {
-    return 9 == a % 10 ? 10 : 5 > a % 10 ? 5 - a % 10 : 11 - a % 10
+    return 9 == a % 10 ? 6 : 5 > a % 10 ? 5 - a % 10 : 11 - a % 10
 }
 
 function findLastBionic() {
