@@ -1433,9 +1433,9 @@ function PraidHarder() {
 
     // Work out the max number of +map zones it's worth farming for prestige.
     if ((game.global.world + maxPlusZones) % 10 > 5)
-        maxPlusZones = Math.max(maxPlusZones + (5 - (game.global.world + maxPlusZones) % 10), 0);
+        maxPlusZones = Math.max(maxPlusZones, 10);
     else if ((game.global.world + maxPlusZones) % 10 == 0)
-        maxPlusZones = Math.min(5, maxPlusZones);
+        maxPlusZones = Math.min(3, maxPlusZones);
 
     // If we have any Praiding zones defined...
     if (getPageSetting(praidSetting).length) {
