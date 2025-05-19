@@ -228,47 +228,15 @@ function plusPres1() {
     updateMapCost();
 
     if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = "smc";
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("advPerfectCheckbox").checked = false;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 8;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 6;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 4;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 2;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 0;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 8;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -276,15 +244,7 @@ function plusPres1() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 6;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -292,15 +252,7 @@ function plusPres1() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 4;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -308,15 +260,7 @@ function plusPres1() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 2;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -324,15 +268,7 @@ function plusPres1() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 0;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -340,7 +276,75 @@ function plusPres1() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("advSpecialSelect").value = 0;
+        document.getElementById("difficultyAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 0;
         updateMapCost();
     }
 }
@@ -357,47 +361,15 @@ function plusPres2() {
     updateMapCost();
 
     if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = "smc";
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("advPerfectCheckbox").checked = false;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 8;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 6;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 4;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 2;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 0;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 8;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -405,15 +377,7 @@ function plusPres2() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 6;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -421,15 +385,7 @@ function plusPres2() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 4;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -437,15 +393,7 @@ function plusPres2() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 2;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -453,15 +401,7 @@ function plusPres2() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 0;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -469,7 +409,75 @@ function plusPres2() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("advSpecialSelect").value = 0;
+        document.getElementById("difficultyAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 0;
         updateMapCost();
     }
 }
@@ -486,47 +494,15 @@ function plusPres3() {
     updateMapCost();
 
     if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = "smc";
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("advPerfectCheckbox").checked = false;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 8;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 6;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 4;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 2;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 0;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 8;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -534,15 +510,7 @@ function plusPres3() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 6;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -550,15 +518,7 @@ function plusPres3() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 4;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -566,15 +526,7 @@ function plusPres3() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 2;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -582,15 +534,7 @@ function plusPres3() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 0;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -598,7 +542,75 @@ function plusPres3() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("advSpecialSelect").value = 0;
+        document.getElementById("difficultyAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 0;
         updateMapCost();
     }
 }
@@ -615,47 +627,15 @@ function plusPres4() {
     updateMapCost();
 
     if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = "smc";
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("advPerfectCheckbox").checked = false;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 8;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 6;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 4;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 2;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 0;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 8;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -663,15 +643,7 @@ function plusPres4() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 6;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -679,15 +651,7 @@ function plusPres4() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 4;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -695,15 +659,7 @@ function plusPres4() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 2;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -711,15 +667,7 @@ function plusPres4() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 0;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -727,7 +675,75 @@ function plusPres4() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("advSpecialSelect").value = 0;
+        document.getElementById("difficultyAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 0;
         updateMapCost();
     }
 }
@@ -744,47 +760,15 @@ function plusPres5() {
     updateMapCost();
 
     if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = "smc";
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("advSpecialSelect").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("advPerfectCheckbox").checked = false;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 8;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 6;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 4;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 2;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("lootAdvMapsRange").value = 0;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 8;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -792,15 +776,7 @@ function plusPres5() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 7;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 6;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -808,15 +784,7 @@ function plusPres5() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 5;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 4;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -824,15 +792,7 @@ function plusPres5() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 3;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 2;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -840,15 +800,7 @@ function plusPres5() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
         document.getElementById("sizeAdvMapsRange").value = 1;
-        updateMapCost();
-    }
-    if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("difficultyAdvMapsRange").value = 0;
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
@@ -856,7 +808,75 @@ function plusPres5() {
         updateMapCost();
     }
     if (updateMapCost(true) > game.resources.fragments.owned) {
-        document.getElementById("advSpecialSelect").value = 0;
+        document.getElementById("difficultyAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 8;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 7;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 6;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 5;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 4;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 3;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 2;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 1;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("difficultyAdvMapsRange").value = 0;
+        updateMapCost();
+    }
+    if (updateMapCost(true) > game.resources.fragments.owned) {
+        document.getElementById("lootAdvMapsRange").value = 0;
         updateMapCost();
     }
 }
@@ -1422,7 +1442,7 @@ function Praiding() {
 
 function PraidHarder() {
     var maxPlusZones;
-    var mapModifiers = ["lmc", "fa", "0"];
+    var mapModifiers = ["lmc", "smc", "fa", "0"];
     var farmFragments;
     var praidBeforeFarm;
     var pRaidIndex;
