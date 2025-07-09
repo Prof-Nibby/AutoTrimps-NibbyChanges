@@ -2122,7 +2122,7 @@ function RalchMap() {
             else if (selection == 'Plentiful') selection = "Plentiful";
             else if (selection == 'Farmlands') selection = "Farmlands";
 
-            RminFragMap(selection, alchlevelzones, "fa");
+            RminFragMap(selection, alchlevelzones, "lmc");
         }
     }
     updateMapCost();
