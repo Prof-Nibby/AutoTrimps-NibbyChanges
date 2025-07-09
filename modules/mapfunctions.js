@@ -970,7 +970,7 @@ function RsmithyCalc(level, selection, special, gather) {
 
     if (!afford && smithymetal < 0 && smithywood < 0) {
         if (selection) return game.global.farmlandsUnlocked ? "Farmlands" : "Plentiful";
-        else if (special) return getHighestLevelCleared(true) > 65 ? "hc" : "lc";
+        else if (special) return getHighestLevelCleared(true) > 65 ? "lmc" : "smc";
         else if (gather) return "metal";
     }
 
