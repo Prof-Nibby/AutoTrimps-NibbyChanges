@@ -2728,10 +2728,10 @@ function RmapRepeat(selectedMap, shouldDoHealthMaps, restartVoidMap) {
 function RquestMap(quest) {
     biomeAdvMapsSelect.value = "Plentiful";
     if (quest == 4) {
-        document.getElementById("advSpecialSelect").value = "hc";
+        document.getElementById("advSpecialSelect").value = "lmc";
         updateMapCost();
         if (updateMapCost(true) > game.resources.fragments.owned) {
-            document.getElementById("advSpecialSelect").value = "fa";
+            document.getElementById("advSpecialSelect").value = "hc";
             updateMapCost();
             if (updateMapCost(true) > game.resources.fragments.owned) {
                 document.getElementById("advSpecialSelect").value = 0;
@@ -2740,13 +2740,13 @@ function RquestMap(quest) {
         }
     }
     if (quest == 7) {
-        document.getElementById("advSpecialSelect").value = "hc";
+        document.getElementById("advSpecialSelect").value = "lmc";
         updateMapCost();
         if (updateMapCost(true) > game.resources.fragments.owned) {
-            document.getElementById("advSpecialSelect").value = "lc";
+            document.getElementById("advSpecialSelect").value = "hc";
             updateMapCost();
             if (updateMapCost(true) > game.resources.fragments.owned) {
-                document.getElementById("advSpecialSelect").value = "fa";
+                document.getElementById("advSpecialSelect").value = "lc";
                 updateMapCost();
                 if (updateMapCost(true) > game.resources.fragments.owned) {
                     document.getElementById("advSpecialSelect").value = 0;
@@ -2762,7 +2762,7 @@ function RquestMap(quest) {
             document.getElementById("advSpecialSelect").value = "ssc";
             updateMapCost();
             if (updateMapCost(true) > game.resources.fragments.owned) {
-                document.getElementById("advSpecialSelect").value = "fa";
+                document.getElementById("advSpecialSelect").value = "hc";
                 updateMapCost();
                 if (updateMapCost(true) > game.resources.fragments.owned) {
                     document.getElementById("advSpecialSelect").value = 0;
@@ -2778,7 +2778,7 @@ function RquestMap(quest) {
             document.getElementById("advSpecialSelect").value = "swc";
             updateMapCost();
             if (updateMapCost(true) > game.resources.fragments.owned) {
-                document.getElementById("advSpecialSelect").value = "fa";
+                document.getElementById("advSpecialSelect").value = "hc";
                 updateMapCost();
                 if (updateMapCost(true) > game.resources.fragments.owned) {
                     document.getElementById("advSpecialSelect").value = 0;
@@ -2794,7 +2794,7 @@ function RquestMap(quest) {
             document.getElementById("advSpecialSelect").value = "smc";
             updateMapCost();
             if (updateMapCost(true) > game.resources.fragments.owned) {
-                document.getElementById("advSpecialSelect").value = "fa";
+                document.getElementById("advSpecialSelect").value = "hc";
                 updateMapCost();
                 if (updateMapCost(true) > game.resources.fragments.owned) {
                     document.getElementById("advSpecialSelect").value = 0;
@@ -2804,7 +2804,7 @@ function RquestMap(quest) {
         }
     }
     if (quest == 13) {
-        document.getElementById("advSpecialSelect").value = "fa";
+        document.getElementById("advSpecialSelect").value = "lmc";
         updateMapCost();
         if (updateMapCost(true) > game.resources.fragments.owned) {
             document.getElementById("advSpecialSelect").value = 0;
@@ -2812,7 +2812,7 @@ function RquestMap(quest) {
         }
     }
     if (quest == 14) {
-        document.getElementById("advSpecialSelect").value = "fa";
+        document.getElementById("advSpecialSelect").value = "lmc";
         updateMapCost();
         if (updateMapCost(true) > game.resources.fragments.owned) {
             document.getElementById("advSpecialSelect").value = 0;
