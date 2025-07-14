@@ -2838,7 +2838,7 @@ function RlevelMap(what) {
         extra = RdesoExtra();
     }
     mapLevelInput.value = (game.global.world + globalextra);
-    biomeAdvMapsSelect.value = "Plentiful";
+    biomeAdvMapsSelect.value = "Farmlands";
     document.getElementById("advSpecialSelect").value = (what == "equip") ? "lmc" : "lmc";
     document.getElementById("advExtraLevelSelect").value = extra;
     updateMapCost();
