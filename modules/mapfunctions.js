@@ -2838,8 +2838,8 @@ function RlevelMap(what) {
         extra = RdesoExtra();
     }
     mapLevelInput.value = (game.global.world + globalextra);
-    biomeAdvMapsSelect.value = "Random";
-    document.getElementById("advSpecialSelect").value = (what == "equip") ? "lmc" : "fa";
+    biomeAdvMapsSelect.value = "Plentiful";
+    document.getElementById("advSpecialSelect").value = (what == "equip") ? "lmc" : "lmc";
     document.getElementById("advExtraLevelSelect").value = extra;
     updateMapCost();
 }
