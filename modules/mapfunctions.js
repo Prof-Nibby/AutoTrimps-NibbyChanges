@@ -294,7 +294,7 @@ function RresetVars() {
 function RfragMap() {
     document.getElementById("biomeAdvMapsSelect").value = "Plentiful";
     document.getElementById("advExtraLevelSelect").value = 0;
-    document.getElementById("advSpecialSelect").value = "fa";
+    document.getElementById("advSpecialSelect").value = "lmc";
     document.getElementById("lootAdvMapsRange").value = 9;
     document.getElementById("difficultyAdvMapsRange").value = 9;
     document.getElementById("sizeAdvMapsRange").value = 9;
