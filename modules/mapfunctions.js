@@ -439,7 +439,7 @@ function RfragCheck(what) {
         frag = getPageSetting('Rhypofarmfrag');
         farmzone = getPageSetting('Rhypofarmzone');
         farmlevel = getPageSetting('Rhypofarmlevel');
-        sepcial = "lwc";
+        special = "lwc";
     }
 
     var farmlevelindex = farmzone.indexOf(game.global.world);
